@@ -32,8 +32,9 @@ function adder(value) {
        // Exit the function if input is empty
     }else
     inputbox.value = String(eval(inputbox.value));
-    
+
   } else {
+   
     var rinput = inputbox.classList;
     rinput.remove("red");
     var text = inputbox.value;
@@ -47,6 +48,5 @@ function square(){
   let ans=(Number(inputbox.value));
   inputbox.value=String(ans*ans);
 }
-
 
 
