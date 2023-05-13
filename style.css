@@ -17,13 +17,15 @@ h1{
     margin-bottom: 4px;
     margin-top: 2px;
   }
-.tablet{
-    width: 70vw;
-    height: 100%;
+.table{
+    width: 50vw;
+    height: 55vh;
 }
 
 .display{
     width: 100%;
+    height: 6.4vh;
+    background-color:rgb(122, 150, 206)
 }
 
 table{
@@ -54,6 +56,22 @@ button:hover{
 @media screen  and (max-width:500px) {
     .tt{
       width: 80vw;
-      height: 100%;
+      height: 90%;
   }
+  .table{
+    width: 50vw;
+    height:100%
+}
+.display{
+    width: 100%;
+    height: 6.4vh;
+    background-color:rgb(122, 150, 206)
+}
+}
+
+#del{
+    background-color: red;
+}
+#ac{
+   background-color: rgb(240, 219, 219);
 }
